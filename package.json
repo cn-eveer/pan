@@ -14,10 +14,10 @@
   },
   "dependencies": {
     "core-js": "^3.25.3",
-    "nuxt": "^2.15.8",
+    "nuxt": "^3.13.2",
     "vue": "^2.7.10",
-    "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10",
+    "vue-server-renderer": "^2.2.6",
+    "vue-template-compiler": "^0.1.0",
     "vuetify": "^2.6.10"
   },
   "devDependencies": {
