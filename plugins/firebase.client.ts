@@ -13,7 +13,7 @@ export default defineNuxtPlugin(() => {
     projectId: config.public.firebaseProjectId,
     storageBucket: config.public.firebaseStorageBucket,
     messagingSenderId: config.public.firebaseMessagingSenderId,
-    appId: config.public.firebaseAppId
+    appId: config.public.firebaseAppId,
   }
 
   const firebaseApp = initializeApp(firebaseConfig)
@@ -25,7 +25,7 @@ export default defineNuxtPlugin(() => {
     provide: {
       firebaseApp,
       auth,
-      firestore
-    }
+      firestore,
+    },
   }
 })
